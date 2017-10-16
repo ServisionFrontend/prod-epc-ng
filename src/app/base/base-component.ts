@@ -7,4 +7,5 @@ export class BaseComponent {
     trans: any = trans;
     eventMap: any = eventMap;
     stateService: any = new StateService();
+
 }

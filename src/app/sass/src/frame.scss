@@ -817,6 +817,7 @@ em.hl {
         background: $bg-color;
         border-bottom: $common-dotted-border;
         position: relative;
+        min-height: 80px;
         .condition-title {
             line-height: $condition-title-line-height;
             border-left: 2px solid $theme-color;
@@ -843,6 +844,7 @@ em.hl {
             max-height: initial;
             .condition-content {
                 overflow: auto;
+                 max-height: 150px;
             }
             .btn-collaspe {
                 display: none;
@@ -873,7 +875,7 @@ em.hl {
         width: 20%;
         bottom: 10px;
         line-height: 1em;
-        right: 0;
+        right: 24px;
         .condition-btn {
             display: inline-block;
             text-decoration: none;
